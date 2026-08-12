@@ -16,10 +16,8 @@ if ($Action -eq "--stop") {
     else {
 
         Write-Host "Nginx not running."
-        
-    }
 
-    
+    }
 }
 # Start nginx
 else {
