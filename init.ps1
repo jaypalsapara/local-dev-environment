@@ -10,6 +10,7 @@ else {
 # Add scoop buckets
 scoop bucket add main
 scoop bucket add versions
+scoop bucket add extras
 
 # Install packages
 scoop install "main/nginx"
@@ -18,3 +19,4 @@ scoop install "main/mysql"
 scoop install "main/composer"
 scoop install "versions/nodejs24"
 scoop install "main/redis"
+scoop install "extras/mkcert"
